@@ -13,6 +13,7 @@ def UserData():
             if (re.search(regex,email)):
                 print "please check your following data: "
                 print (name, email)
+                break
             else:
                 print" You entered invalid email"
 UserData()
